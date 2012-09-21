@@ -1,30 +1,43 @@
 # General Ignorable Generated things
-Makefile
-Makefile.in
-aclocal.m4
-autom4te.*
+c_src/aclocal.m4
+c_src/autom4te.*
 c_src/.deps/*
 c_src/Makefile
 c_src/Makefile.in
-compile
-config.log
-config.status
-configure
-depcomp
-install-sh
-missing
-src/Makefile
-src/Makefile.in
+c_src/compile
+c_src/config.log
+c_src/config.status
+c_src/configure
+c_src/depcomp
+c_src/install-sh
+c_src/missing
+c_src/Makefile
+c_src/Makefile.in
+
+# Unneeded files
+c_src/AUTHORS
+c_src/COPYING
+c_src/ChangeLog
+c_src/INSTALL
+c_src/NEWS
+c_src/README
 
 # Compiled Object files
-*.slo
-*.lo
-*.o
+c_src/*.slo
+c_src/*.lo
+c_src/*.o
 
 # Compiled Dynamic libraries
-*.so
+c_src/*.so
 
 # Compiled Static libraries
-*.lai
-*.la
-*.a
+c_src/*.lai
+c_src/*.la
+c_src/*.a
+
+# Erlang related ignorables
+ebin/*
+.eunit/*
+.deps_plt
+
+priv

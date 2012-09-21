@@ -1,0 +1,10 @@
+%% -*- erlang-indent-level: 4; indent-tabs-mode: nil; fill-column: 80 -*-
+%%
+
+
+{application, erld,
+ [{description, "Unix oriented process monitor for erlang"},
+  {vsn, git},
+  {modules, []},
+  {registered, []},
+  {applications, [kernel, stdlib]}]}.
