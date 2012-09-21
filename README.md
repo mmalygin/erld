@@ -8,10 +8,10 @@ parameters.
 
 To build and install from a clean checkout:
 
-        ./bootstrap.sh
-        ./configure
-        make
-        sudo make install
+    $> make
+
+This assumes that you have rebar installed on your system (It will
+error if you do not).
 
 REQUIREMENTS
 ------------
