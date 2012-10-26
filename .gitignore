@@ -41,3 +41,4 @@ ebin/*
 .deps_plt
 
 priv
+deps/*
