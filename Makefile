@@ -91,3 +91,5 @@ clean: clean-common-test-data
 distclean: clean
 	- rm -rf $(DEPS_PLT)
 	- rm -rvf $(CURDIR)/deps/*
+
+rebuild: distclean get-deps compile dialyzer test
