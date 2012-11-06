@@ -4,7 +4,7 @@
 
 {application, erld,
  [{description, "Unix oriented process monitor for erlang"},
-  {vsn, git},
+  {vsn, "semver"},
   {modules, []},
   {registered, []},
   {applications, [kernel, stdlib]}]}.
