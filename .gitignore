@@ -1,43 +1,43 @@
 # General Ignorable Generated things
-c_src/aclocal.m4
-c_src/autom4te.*
-c_src/.deps/*
-c_src/Makefile
-c_src/Makefile.in
-c_src/compile
-c_src/config.log
-c_src/config.status
-c_src/configure
-c_src/depcomp
-c_src/install-sh
-c_src/missing
-c_src/Makefile
-c_src/Makefile.in
-c_src/clean
-c_src/confdefs.h
-c_src/conftest
+c_part/aclocal.m4
+c_part/autom4te.*
+c_part/.deps/*
+c_part/Makefile
+c_part/Makefile.in
+c_part/compile
+c_part/config.log
+c_part/config.status
+c_part/configure
+c_part/depcomp
+c_part/install-sh
+c_part/missing
+c_part/Makefile
+c_part/Makefile.in
+c_part/clean
+c_part/confdefs.h
+c_part/conftest
 erld
 
 # Unneeded files
-c_src/AUTHORS
-c_src/COPYING
-c_src/ChangeLog
-c_src/INSTALL
-c_src/NEWS
-c_src/README
+c_part/AUTHORS
+c_part/COPYING
+c_part/ChangeLog
+c_part/INSTALL
+c_part/NEWS
+c_part/README
 
 # Compiled Object files
-c_src/*.slo
-c_src/*.lo
-c_src/*.o
+c_part/*.slo
+c_part/*.lo
+c_part/*.o
 
 # Compiled Dynamic libraries
-c_src/*.so
+c_part/*.so
 
 # Compiled Static libraries
-c_src/*.lai
-c_src/*.la
-c_src/*.a
+c_part/*.lai
+c_part/*.la
+c_part/*.a
 
 # Erlang related ignorables
 ebin/*

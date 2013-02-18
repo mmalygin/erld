@@ -78,10 +78,10 @@ clean-common-test-data:
 	- rm -rf $(CURDIR)/test/*_SUITE_data
 
 clean: clean-common-test-data
-	- rm -rf $(CURDIR)/c_src/NEWS
-	- rm -rf $(CURDIR)/c_src/README
-	- rm -rf $(CURDIR)/c_src/AUTHORS
-	- rm -rf $(CURDIR)/c_src/ChangeLog
+	- rm -rf $(CURDIR)/c_part/NEWS
+	- rm -rf $(CURDIR)/c_part/README
+	- rm -rf $(CURDIR)/c_part/AUTHORS
+	- rm -rf $(CURDIR)/c_part/ChangeLog
 	- rm -rf $(CURDIR)/test/*.beam
 	- rm -rf $(CURDIR)/logs
 	- rm -rf $(CURDIR)/priv
